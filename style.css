@@ -1,0 +1,110 @@
+.bg-primary {
+	background-color: #3C403E !important;
+}
+
+.mobileSlideshow {
+	display: none;
+}
+
+.social-share {
+	font-size: 36px;
+	display: flex;
+	justify-content: center;
+	color: #000 !important;
+}
+
+.soc-share {
+	padding: 0 20px;
+}
+
+footer {
+	color: #000;
+	/*background-color: #3C403E !important;*/
+	/*background-color: rgb(294, 197, 70) !important;*/
+	background-color: #0f7a4c !important;
+}
+
+.btn-primary {
+	/*background-color: rgb(15, 122, 76) !important;*/
+	background-color: rgb(294, 197, 70) !important;
+}
+
+a {
+	color: rgb(294, 197, 70);
+}
+
+.producto {
+	color: #d5a22b !important;
+}
+
+.team-player img {
+	max-width: 200px !important;
+}
+
+.slideshow, .mobileSlideshow {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.cont {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 150px;
+	align-items: center;
+}
+
+.social {
+	text-decoration: none;
+	font-size: 36px;
+}
+
+.soc-ico {
+	padding: 0 10px;
+}
+
+.cp-cap {
+	font-size: 16px;
+}
+
+.mySlides, .myMSlides {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.img-cont {
+	height: 200px;
+	margin: 40px 0;
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.img-cont-main {
+	height: 400px;
+	background-position: center center;
+	background-size: cover;
+}
+
+@media (max-width: 576px) {
+  .slideshow {
+    display: none;
+  }
+  .mobileSlideshow {
+  	display: block;
+  }
+  .sidebar-collapse .navbar-collapse:before {
+  	background: linear-gradient(#0f7a4c 0%, #000 80%) !important;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .cont {
+  	flex-direction: column;
+	}
+}
